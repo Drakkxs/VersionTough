@@ -1,0 +1,15 @@
+{
+  "type": "toughasnails:water_purifying",
+  "input": {
+    "Count": 1,
+    "id": "toughasnails:dirty_water_bottle"
+  },
+  "purifytime": 400,
+  "result": {
+    "Count": 1,
+    "id": "minecraft:potion",
+    "tag": {
+      "Potion": "minecraft:water"
+    }
+  }
+}

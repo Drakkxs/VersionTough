@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Specification-Title: ToughAsNails
+Specification-Vendor: Adubbz, Forstride
+Specification-Version: 9.2.0.171
+Implementation-Title: Forge
+Implementation-Version: 9.2.0.171
+Implementation-Vendor: Adubbz, Forstride
+Implementation-Timestamp: 2024-10-16T02:19:25+0000
+Timestamp: 1729045165516
+Built-On-Java: 17+35-LTS-2724 (Oracle Corporation)
+Build-On-Minecraft: 1.20.1
+MixinConfigs: toughasnails.mixins.json,toughasnails.forge.mixins.json
+

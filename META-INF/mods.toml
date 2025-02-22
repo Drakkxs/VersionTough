@@ -1,0 +1,34 @@
+modLoader="javafml"
+license="All Rights Reserved"
+loaderVersion="[47,)"
+issueTrackerURL="https://github.com/Glitchfiend/ToughAsNails/issues"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/tough-as-nails"
+logoFile="toughasnails_logo.png"
+
+[[mods]]
+    modId="toughasnails"
+    version="9.2.0.171"
+    displayName="Tough As Nails"
+	authors="Adubbz, Forstride"
+    description="Adds features to enhance survival mode and increase the game's difficulty."
+
+[[dependencies.toughasnails]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.3.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.toughasnails]]
+    modId="glitchcore"
+    mandatory=true
+    versionRange="[0.0.1.1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.toughasnails]]
+    modId="sereneseasons"
+    mandatory=false
+    versionRange="[9.1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

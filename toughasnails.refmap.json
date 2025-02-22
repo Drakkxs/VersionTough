@@ -1,0 +1,70 @@
+{
+  "mappings": {
+    "toughasnails/mixin/MixinFoodData": {
+      "tick": "Lnet/minecraft/world/food/FoodData;m_38710_(Lnet/minecraft/world/entity/player/Player;)V"
+    },
+    "toughasnails/mixin/client/MixinGui": {
+      "renderHeart": "Lnet/minecraft/client/gui/Gui;m_280593_(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/client/gui/Gui$HeartType;IIIZZ)V"
+    },
+    "toughasnails/mixin/MixinItem": {
+      "use": "Lnet/minecraft/world/item/Item;m_7203_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+      "Lnet/minecraft/world/entity/player/Player;canEat(Z)Z": "Lnet/minecraft/world/entity/player/Player;m_36391_(Z)Z"
+    },
+    "toughasnails/mixin/MixinServerPlayer": {
+      "doTick": "Lnet/minecraft/server/level/ServerPlayer;m_9240_()V",
+      "restoreFrom": "Lnet/minecraft/server/level/ServerPlayer;m_9015_(Lnet/minecraft/server/level/ServerPlayer;Z)V"
+    },
+    "toughasnails/mixin/MixinServerLevel": {
+      "addPlayer": "Lnet/minecraft/server/level/ServerLevel;m_8853_(Lnet/minecraft/server/level/ServerPlayer;)V"
+    },
+    "toughasnails/mixin/MixinLivingEntity": {
+      "Lnet/minecraft/world/entity/LivingEntity;isDeadOrDying()Z": "Lnet/minecraft/world/entity/LivingEntity;m_21224_()Z",
+      "aiStep": "Lnet/minecraft/world/entity/LivingEntity;m_8107_()V"
+    },
+    "toughasnails/mixin/client/MixinLocalPlayer": {
+      "aiStep": "Lnet/minecraft/client/player/LocalPlayer;m_8107_()V",
+      "Lnet/minecraft/client/player/LocalPlayer;setSprinting(Z)V": "Lnet/minecraft/client/player/LocalPlayer;m_6858_(Z)V"
+    },
+    "toughasnails/mixin/MixinPlayer": {
+      "addAdditionalSaveData": "Lnet/minecraft/world/entity/player/Player;m_7380_(Lnet/minecraft/nbt/CompoundTag;)V",
+      "causeFoodExhaustion": "Lnet/minecraft/world/entity/player/Player;m_36399_(F)V",
+      "tick": "Lnet/minecraft/world/entity/player/Player;m_8119_()V",
+      "readAdditionalSaveData": "Lnet/minecraft/world/entity/player/Player;m_7378_(Lnet/minecraft/nbt/CompoundTag;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "toughasnails/mixin/MixinFoodData": {
+        "tick": "Lnet/minecraft/world/food/FoodData;m_38710_(Lnet/minecraft/world/entity/player/Player;)V"
+      },
+      "toughasnails/mixin/client/MixinGui": {
+        "renderHeart": "Lnet/minecraft/client/gui/Gui;m_280593_(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/client/gui/Gui$HeartType;IIIZZ)V"
+      },
+      "toughasnails/mixin/MixinItem": {
+        "use": "Lnet/minecraft/world/item/Item;m_7203_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+        "Lnet/minecraft/world/entity/player/Player;canEat(Z)Z": "Lnet/minecraft/world/entity/player/Player;m_36391_(Z)Z"
+      },
+      "toughasnails/mixin/MixinServerPlayer": {
+        "doTick": "Lnet/minecraft/server/level/ServerPlayer;m_9240_()V",
+        "restoreFrom": "Lnet/minecraft/server/level/ServerPlayer;m_9015_(Lnet/minecraft/server/level/ServerPlayer;Z)V"
+      },
+      "toughasnails/mixin/MixinServerLevel": {
+        "addPlayer": "Lnet/minecraft/server/level/ServerLevel;m_8853_(Lnet/minecraft/server/level/ServerPlayer;)V"
+      },
+      "toughasnails/mixin/MixinLivingEntity": {
+        "Lnet/minecraft/world/entity/LivingEntity;isDeadOrDying()Z": "Lnet/minecraft/world/entity/LivingEntity;m_21224_()Z",
+        "aiStep": "Lnet/minecraft/world/entity/LivingEntity;m_8107_()V"
+      },
+      "toughasnails/mixin/client/MixinLocalPlayer": {
+        "aiStep": "Lnet/minecraft/client/player/LocalPlayer;m_8107_()V",
+        "Lnet/minecraft/client/player/LocalPlayer;setSprinting(Z)V": "Lnet/minecraft/client/player/LocalPlayer;m_6858_(Z)V"
+      },
+      "toughasnails/mixin/MixinPlayer": {
+        "addAdditionalSaveData": "Lnet/minecraft/world/entity/player/Player;m_7380_(Lnet/minecraft/nbt/CompoundTag;)V",
+        "causeFoodExhaustion": "Lnet/minecraft/world/entity/player/Player;m_36399_(F)V",
+        "tick": "Lnet/minecraft/world/entity/player/Player;m_8119_()V",
+        "readAdditionalSaveData": "Lnet/minecraft/world/entity/player/Player;m_7378_(Lnet/minecraft/nbt/CompoundTag;)V"
+      }
+    }
+  }
+}
